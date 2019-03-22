@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.searchbox {
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+.package {
+  flex-direction: row;
+  align-content: center;
+  list-style: none;
+}
+.package-name {
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: space-evenly;
+  align-self: center;
+  font-size: large;
+  font-weight: bold;
+  color: darkslategrey;
+}
+.package-info {
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  font-size: medium;
+  font-weight: normal;
+  color: darkgrey;
+  align-content: space-evenly;
+}
